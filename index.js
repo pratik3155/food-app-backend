@@ -10,7 +10,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 5000
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://crispy-space-waffle-69gwvwx79w94crqp4-5000.app.github.dev");
+  res.setHeader("Access-Control-Allow-Origin", "https://foodappfrontend.azurewebsites.net");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
